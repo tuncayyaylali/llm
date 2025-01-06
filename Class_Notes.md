@@ -11,12 +11,19 @@ python -m venv .venv
 ```
 ```bash
 touch requirements.txt
-python-dotenv
-langchain 
-langchain-openai
-pip install -r requeirements.txt
+langchain==0.2.10
+langchain-community==0.2.9
+langchain-core==0.2.22
+langchain-openai==0.1.17
+langchain-text-splitters==0.2.2
+openai==1.36.0
+python-dotenv==1.0.1
+fastapi==0.111.1
+langserve==0.2.2
+sse_starlette==2.1.2
+pip install -r requirements.txt
 ```
-```Python
+```python
 touch .env
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
