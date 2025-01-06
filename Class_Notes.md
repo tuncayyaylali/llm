@@ -30,3 +30,9 @@ LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
 LANGCHAIN_API_KEY="..."
 LANGCHAIN_PROJECT="..."
 ```
+```bash
+touch serve.py
+...
+python serve.py
+http://localhost:8000/chain/playgorund
+```
